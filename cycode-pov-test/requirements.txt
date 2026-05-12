@@ -1,0 +1,4 @@
+# PoV test dependency — intentionally pinned to a vulnerable version
+# pyyaml 5.1 is affected by CVE-2020-1747 (CVSS 9.8 Critical):
+# arbitrary code execution via yaml.load() with FullLoader.
+pyyaml==5.1
